@@ -12,3 +12,20 @@ body {
   image-rendering: -moz-crisp-edges;
   image-rendering: crisp-edges;
 }
+/* Override thirdweb default styles */
+.tw-connect-wallet {
+  background: transparent !important;
+  padding: 0 !important;
+  min-height: 0 !important;
+  height: auto !important;
+  border: none !important;
+  box-shadow: none !important;
+}
+
+.tw-connect-wallet > div {
+  color: white !important;
+}
+
+.tw-connect-wallet:hover > div {
+  color: white !important;
+}
